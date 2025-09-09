@@ -1,3 +1,53 @@
+# Estimativa de Custos – Entrega 2
+
+## 1. Contexto
+Este documento apresenta a estimativa de custos para hospedar a Machine Learning da Entrega 1 em uma instância EC2 na AWS.
+
+**Requisitos da instância:**
+- 2 vCPUs  
+- 1 GiB de memória RAM  
+- Até 5 Gbps de rede  
+- 50 GB de armazenamento (EBS)  
+- Uso constante (100% do tempo)  
+
+---
+
+## 2. Comparação de Custos entre Regiões
+
+| Região                        | Tipo de Instância | Custo Mensal (USD) | Total 12 Meses (USD) |
+|-------------------------------|-----------------|------------------|--------------------|
+| América do Sul (São Paulo)    | t4g.micro       | 4.89             | 58.69              |
+| Leste dos EUA (N. da Virgínia)| t4g.micro       | 3.07             | 36.79              |
+
+\* Valores considerando **Compute Savings Plans 3 anos – No Upfront**.  
+
+---
+
+## 3. Observações
+- Todos os valores são **estimativas da Calculadora de Preços da AWS**.  
+- Custos reais podem variar de acordo com uso efetivo e taxas adicionais.  
+- O custo inicial incluído é **0,7 USD** na estimativa.  
+
+---
+
+## 4. Justificativa da Escolha
+Apesar de a região da Virgínia do Norte apresentar custo menor, escolhemos **São Paulo (BR)** por:  
+1. **Acesso rápido aos dados** dos sensores instalados na fazenda.  
+2. **Restrições legais** que impedem armazenar dados sensíveis no exterior.  
+3. **Baixa latência**, garantindo performance da API.  
+
+---
+
+## 5. Conclusão
+A instância **t4g.micro** atende aos requisitos mínimos e é suficiente para hospedar a API de Machine Learning de forma econômica e eficiente.
+
+---
+
+## 6. Referências Visuais
+Se possível, inclua imagens da **configuração da calculadora AWS**, capturas de tela do plano escolhido ou gráficos comparativos entre regiões.
+
+
+
 # PBL Fase 4 - Entrega 1
 
 ## Descrição do Projeto
