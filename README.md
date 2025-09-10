@@ -1,3 +1,11 @@
+
+### Notebook Jupyter
+O notebook com todo o desenvolvimento do projeto está disponível neste repositório:
+
+[🔗 Acesse o notebook Jupyter aqui](https://github.com/rsleslie/4IA-CAP1)
+
+---
+
 # Estimativa de Custos – Entrega 2
 
 ## 1. Contexto
