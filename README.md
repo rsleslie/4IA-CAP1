@@ -51,7 +51,7 @@ Abaixo está a captura de tela da estimativa de custos na AWS:
 
 
 
-# PBL Fase 4 - Entrega 1
+# Entrega 1
 
 ## Descrição do Projeto
 Este projeto tem como objetivo analisar dados agrícolas de uma fazenda de médio porte, aplicando técnicas de **Machine Learning** e **Análise Exploratória de Dados** para prever o rendimento das culturas. As atividades principais incluem:
