@@ -44,7 +44,10 @@ A instância **t4g.micro** atende aos requisitos mínimos e é suficiente para h
 ---
 
 ## 6. Referências Visuais
-Se possível, inclua imagens da **configuração da calculadora AWS**, capturas de tela do plano escolhido ou gráficos comparativos entre regiões.
+
+Abaixo está a captura de tela da estimativa de custos na AWS:
+
+![Estimativa de custos AWS](my-estimate.png)
 
 
 
